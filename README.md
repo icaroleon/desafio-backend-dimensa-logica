@@ -14,11 +14,11 @@ Dado um conjunto de caracteres, você precisará extrair os "diamantes"  `<>` e 
 - Exibir a quantidade de diamantes extraídos.
 - O projeto deve ser disponibilizado em um repositório aberto no GitHub
 
-### **Dicas:**
+### **Resolução detalhada:**
 
-- O diamante é a junção dos sinais menor `<` e maior `>` sem que não haja nada entre eles.
-- Areia é o ponto final.
-- Considerando a entrada `<<>>><` Ao extrair um diamante `<>`, é formado um novo diamante para ser extraído `<>><`
+- É utilizado o método "delete" para apagar a "areia" que se encontra dentro da expressão enviada;
+- É utilizado o método ".sub" para extrair os diamantes completos (<>);
+- A partir dos diamantes extraídos eles são adicionados para, ao final, mostrar quantos foram mineirados.
 
 ----------
 
